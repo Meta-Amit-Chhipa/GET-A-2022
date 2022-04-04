@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <!--Header Started-->
+    <header>
+        <nav>
+            <a href="#EmpForm" class="nav_items">Add Employee</a>
+            <a href="#VehicleForm" class="nav_items">Add Vechile</a>
+            <a href="#FeedbackForm" class="nav_items">Feedback</a>
+            <a href="#PriceSection" class="nav_items">Pricing</a>
+        </nav>
+    </header>
+    <!--Image  Section-->
+    <img src="Architectural-design.jpg" width="100%" height="400px">
+    <!--Add Employee Section-->
+    <section id="AddEmployee">
+        <h4>Add Employee Detail</h4>
+    <div class="Employee-Form" id="EmpForm">
+        <form>
+            <label>Full Name</label><br>
+            <input type="text" placeholder="Full Name"><br>
+            <label>Gender</label><br>
+            <select>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            <label>Enter Email</label><br>
+            <input type="email" placeholder="Email"><br>
+            <label>Enter Password</label><br>
+            <input type="password" placeholder="Pasword"><br>
+            <label>Confirm Password</label><br>
+            <input type="password" placeholder="Confirme Password"><br>
+            <label>Mobile Number</label><br>
+            <input type="text" placeholder="Mobile Number"><br>
+        </form>
+    </div>
+    </section>
+    <!--Add Vehicle Section-->
+    <section id="AddVehicle">
+        <h3>Add Vehicle</h3>
+    <div class="Vehicle-Form" id="VehicleForm">
+        <form>
+            <label>Vehicle Make(Company Name)</label><br>
+            <input type="text" placeholder="Vehicle Make" required><br>
+            <label>Vehicle Model</label><br>
+            <input type="text" placeholder="Vehicle Model" required><br>
+            <label>Enter Password</label><br>
+            <input type="password" placeholder="Pasword" required><br>
+            <label>Number</label><br>
+            <input type="text" placeholder="Vehicle Number" required><br>
+            <label>Employee Id</label><br>
+            <input type="text" placeholder="Employee Id" required><br>
+            <label>Identification</label><br>
+            <textarea rows="5" cols="30">
+            </textarea>
+        </form>
+    </div>
+    </section>
+    <!--Add Feedback-->
+    <section id="AddFeedback">
+        <h3>Give Feedback</h3>
+        <div class="Feedback-Form" id="FeedbackForm">
+            <form>
+                <input type="text" placeholder="Name"><br></br>
+                <input type="email" placeholder="Email"></br></br>
+                <textarea placeholder="Message" rows="6" cols="12"></textarea><br>
+                <button>Send Email -></button>
+            </form>
+        </div>
+    </section>
+    <!--Pricing Section-->
+    <section id="Price">
+    <h3>Pricing</h3>
+    <div class="Pricing-Section row" id="PriceSection">
+        <div class="Cycle column">
+            <h4>$100/Month</h4>
+            <p>$5 Daily</p>
+            <p>$100 Monthly</p>
+            <p>$500 Yearly</p>
+            <button>PURCHASE NOW</button>
+        </div>
+        <div class="Motel-Cycle column">
+            <h4>$200/Month</h4>
+            <p>$10 Daily</p>
+            <p>$200 Monthly</p>
+            <p>$1000 Yearly</p>
+            <button>PURCHASE NOW</button>
+        </div>
+        <div class="Four-Vehicler column">
+            <h4>$500/Month</h4>
+            <p>$20 Daily</p>
+            <p>$500 Monthly</p>
+            <p>$3500 Yearly</p>
+            <button>PURCHASE NOW</button>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
